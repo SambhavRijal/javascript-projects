@@ -6,6 +6,8 @@ $("button").on("click",function(event){
     if($(this).hasClass('input')){
         input+=$(this).text();
         $("#result").val(input);
+        var ta = document.getElementById('result');
+        ta.scrollLeft = ta.scrollWidth;
         console.log(input)
     }
 
@@ -20,6 +22,8 @@ $("button").on("click",function(event){
         input='';
         $("#result").val(result);
         $("#history").val(input);
+        var ta = document.getElementById('result');
+        ta.scrollLeft = ta.scrollWidth;
     }
 
     if($(this).text()=='Del'){
@@ -34,6 +38,8 @@ $("button").on("click",function(event){
         }
         $("#result").val(input);
         $("#history").val(result);
+        var ta = document.getElementById('result');
+        ta.scrollLeft = ta.scrollWidth;
     }
 
     
@@ -47,6 +53,8 @@ $(document).on("keypress",function(event){
         console.log(event.key);
         input+=event.key;
         $("#result").val(input);
+        var ta = document.getElementById('result');
+        ta.scrollLeft = ta.scrollWidth;
         console.log(input);
     }
     else{
