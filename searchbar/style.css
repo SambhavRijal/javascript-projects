@@ -24,9 +24,10 @@ body{
     width: 80%;
     font-size: 1.5rem;
     margin-left: 10%;
-    border-radius: 5px;
+    border-radius: 10px;
     outline: none;
     border: none;
+    padding: 1.7%;
 }
 
 .item{
