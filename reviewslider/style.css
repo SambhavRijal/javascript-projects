@@ -1,0 +1,97 @@
+body{
+    background-color: #FEDEAA;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 95vh;
+}
+
+.main{
+    background-color: #FFF1DB;
+    width: 70%;
+    height: 75%;
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+
+}
+
+h2{
+    text-align: center;
+    width: 35%;
+    padding: 3%;
+    color: #FE9B01;
+    margin: auto;
+    font-size: 2rem;
+}
+
+.review-section{
+    margin-top: 3%;
+    display: flex;
+    justify-content: center
+}
+
+.review{
+    align-items: center;
+    justify-content: center;
+    padding: 1%;
+    display: flex;
+    background-color: #FFFEFE;
+    width: 55%;
+    margin: auto;
+    height: 30%;
+    border-radius: 20px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+}
+
+img{
+    border-radius: 50%;
+    width: 17%;
+    margin-right: 5%;
+    margin-left: 5%;
+}
+
+#identity{
+    color: #FEA519;
+}
+
+.review-section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+#previous{
+    position: absolute;
+    left: 14%;
+}
+
+#next{
+    position: absolute;
+    right: 14%;
+}
+
+i{
+    color: #CBB698;
+}
+
+.slider-control{
+    font-size: 2em;
+    transition: 200ms;
+}
+
+.slider-control:hover{
+    font-size: 2.5em;
+}
+
+.slider-address{
+    width: 11%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 3%;
+}
+
+.slider-address i{
+    font-size: 0.8em;
+}
