@@ -27,7 +27,8 @@ h2{
 .review-section{
     margin-top: 3%;
     display: flex;
-    justify-content: center
+    justify-content: center;
+    user-select:none; /*  Prevents selection of child element texts */
 }
 
 .review{
@@ -94,4 +95,8 @@ i{
 
 .slider-address i{
     font-size: 0.8em;
+}
+
+.selected{
+    color: #FE9B01;
 }
